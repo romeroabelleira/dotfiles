@@ -45,7 +45,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 #### The Text Triumvirate
 #### http://www.drbunsen.org/the-text-triumvirate/
-export EDITOR="vim"
+export EDITOR="mvim -f"
 bindkey -v
 
 # vi style incremental search
