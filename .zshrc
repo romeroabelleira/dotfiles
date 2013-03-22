@@ -57,3 +57,8 @@ bindkey '^N' history-search-forward
 # cd automatically
 setopt AUTO_CD
 
+### RBENV
+#Path
+export PATH="$HOME/.rbenv/bin:$PATH"
+#Autocompletion
+eval "$(rbenv init -)"
