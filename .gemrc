@@ -1,2 +1,2 @@
-install: --no-ri
-update:  --no-ri
+install: --no-rdoc
+update:  --no-rdoc
