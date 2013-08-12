@@ -65,3 +65,7 @@ eval "$(rbenv init -)"
 
 ### Rails
 alias r="rails"
+
+### Git & Github
+eval "$(hub alias -s)"
+export GITHUB_USER="romeroabelleira"
