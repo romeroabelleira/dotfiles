@@ -7,8 +7,9 @@ let mapleader = ","
 set title
 
 """ Save things.
-nmap <c-s> :w<CR>
-vmap <c-s> <Esc><c-s>gv
-imap <c-s> <Esc><c-s>
+"nmap <c-s> :w<CR>
+"vmap <c-s> <Esc><c-s>gv
+"imap <c-s> <Esc><c-s>
+"does not work
 
 call janus#disable_plugin('nerdtree')

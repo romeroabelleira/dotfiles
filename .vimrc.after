@@ -26,12 +26,3 @@ map <Leader>rq :VimuxCloseRunner<CR>
 
 " Interrupt any command running in the runner pane
 map <Leader>rs :VimuxInterruptRunner<CR>
-
-""" Configuring Vim right
-""" http://items.sjbach.com/319/configuring-vim-right
-"set hidden
-let mapleader = ","
-"nnoremap ' `
-"nnoremap ` '
-"set title
-
