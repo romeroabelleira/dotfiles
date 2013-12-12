@@ -1,1 +1,14 @@
+""" Configuring Vim right
+""" http://items.sjbach.com/319/configuring-vim-right
+"set hidden
+let mapleader = ","
+"nnoremap ' `
+"nnoremap ` '
+set title
+
+""" Save things.
+nmap <c-s> :w<CR>
+vmap <c-s> <Esc><c-s>gv
+imap <c-s> <Esc><c-s>
+
 call janus#disable_plugin('nerdtree')
