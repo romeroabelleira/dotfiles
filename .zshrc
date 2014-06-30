@@ -60,6 +60,7 @@ alias migrate='rake db:migrate && rake db:test:prepare'
 ### Git & Github
 eval "$(hub alias -s)"
 export GITHUB_USER="romeroabelleira"
+alias github="open -a github"
 
 ### Amazon AWS
 export JAVA_HOME="$(/usr/libexec/java_home)"
