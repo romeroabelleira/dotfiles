@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="lambda"
+ZSH_THEME="sunrise"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -26,10 +26,17 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### TMUX
 alias tx="tmuxinator"
+alias tmux="tmux -u"
+
+# Set locale to avoid tmux utf8 errors
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 
 #### The Text Triumvirate
 #### http://www.drbunsen.org/the-text-triumvirate/
 export EDITOR="vim"
+alias vim="/usr/local/Cellar/macvim/7.4-72/MacVim.app/Contents/MacOS/Vim"
 alias v="vim"
 
 # vi style incremental search
@@ -49,6 +56,7 @@ eval "$(rbenv init -)"
 
 ### Rails
 alias r="rails"
+alias migrate='rake db:migrate && rake db:test:prepare'
 
 ### Git & Github
 eval "$(hub alias -s)"
