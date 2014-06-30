@@ -36,7 +36,6 @@ export LANG=en_US.UTF-8
 #### The Text Triumvirate
 #### http://www.drbunsen.org/the-text-triumvirate/
 export EDITOR="vim"
-alias vim="/usr/local/Cellar/macvim/7.4-72/MacVim.app/Contents/MacOS/Vim"
 alias v="vim"
 
 # vi style incremental search
